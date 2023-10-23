@@ -17,8 +17,8 @@ This algorithm is strong in the fact that it handles real world data rather well
 
 #### Time Complexities
 - Best Case Time Complexity is Ω(n)
-- Average Case Time Complexity θ(n*log(n))
-- Worst Case Time Complexity is O(n(log n))
+- Average Case Time Complexity θ(n(log(n)))
+- Worst Case Time Complexity is O(n(log(n)))
 
 ### Gain an Understanding in Algorithm Design & Implementation
 - Picking an algorithm to solve a given problem is an easy task. Picking the __best__ algorithm to solve a required task takes knowledge and experience. The study of this algorithm highlights the areas that it is best at.
