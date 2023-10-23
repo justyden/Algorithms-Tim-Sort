@@ -1,6 +1,5 @@
 # Algorithms-Tim-Sort
 <div align="center">
-    <h3>A Penn State Acura Project<h3>
   <img src="https://github.com/BabyKangaroo117/Frugl-APP/assets/13011373/b5efcc9f-946b-44ee-88cb-0036170282ff">
   <br>
   <a href="https://github.com/justyden/Algorithms-Tim-Sort/graphs/contributors" alt="Contributors">
