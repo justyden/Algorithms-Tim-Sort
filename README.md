@@ -1,4 +1,12 @@
 # Algorithms-Tim-Sort
+<div align="center">
+    <h3>A Penn State Acura Project<h3>
+  <img src="https://github.com/BabyKangaroo117/Frugl-APP/assets/13011373/b5efcc9f-946b-44ee-88cb-0036170282ff">
+  <br>
+  <a href="https://github.com/BabyKangaroo117/Frugl-APP/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/badge/Contributors-1-blue" /></a>
+ </div>
+
 The Tim sort algorithm combines insertion sort as well as merge sort and for this reasoning, it is considered a hybrid sorting algorithm. The usefulness of this algorithm spans deeply across the coding industry, as this algorithm has been widely used in recent years. Python for example, uses this algorithm for the sorted() method, as well as the list.sort() method. In the process of picking this algorithm, I found it would be necessary to understand an algorithm that has such a practical use case in the real world. Seeing how many different languages alone incorporate this algorithm, I thought it would be fitting to chose and implement it.
 ## Project Goals
 
