@@ -1,9 +1,12 @@
 # Algorithms-Tim-Sort
 <div align="center">
+  <br>
   <img src="https://github.com/BabyKangaroo117/Frugl-APP/assets/13011373/b5efcc9f-946b-44ee-88cb-0036170282ff">
   <br>
   <a href="https://github.com/justyden/Algorithms-Tim-Sort/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/badge/Contributors-1-blue" /></a>
+  <br>
+  <br>
  </div>
 
 The Tim sort algorithm combines insertion sort as well as merge sort and for this reasoning, it is considered a hybrid sorting algorithm. The usefulness of this algorithm spans deeply across the coding industry, as this algorithm has been widely used in recent years. Python for example, uses this algorithm for the sorted() method, as well as the list.sort() method. In the process of picking this algorithm, I found it would be necessary to understand an algorithm that has such a practical use case in the real world. Seeing how many different languages alone incorporate this algorithm, I thought it would be fitting to chose and implement it.
@@ -14,8 +17,8 @@ This algorithm is strong in the fact that it handles real world data rather well
 
 #### Time Complexities
 - Best Case Time Complexity is Ω(n)
-- Average Case Time Complexity θ(n*log(n))
-- Worst Case Time Complexity is O(n(log n))
+- Average Case Time Complexity θ(n(log(n)))
+- Worst Case Time Complexity is O(n(log(n)))
 
 ### Gain an Understanding in Algorithm Design & Implementation
 - Picking an algorithm to solve a given problem is an easy task. Picking the __best__ algorithm to solve a required task takes knowledge and experience. The study of this algorithm highlights the areas that it is best at.
