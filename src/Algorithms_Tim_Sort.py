@@ -172,7 +172,37 @@ def generate_list(amount):
 
 
 if __name__ == "__main__":
-    list1 = generate_list(5)
-    list2 = list1.copy()
-    list1 = calculateTime(mergeSort, list1)
-    calculateTime(timSort, list2)
+    listTest1000T = generate_list(1000)
+    listTest1000M = listTest1000T.copy()
+    print("Input size of 1000 \n")
+    list1 = calculateTime(mergeSort, listTest1000M)
+    calculateTime(timSort, listTest1000T)
+    print('\n')
+
+    listTest10000T = generate_list(10000)
+    listTest10000M = listTest1000T.copy()
+    print("Input size of 10000 \n")
+    list1 = calculateTime(mergeSort, listTest10000M)
+    calculateTime(timSort, listTest10000T)
+    print('\n')
+
+    listTest50000T = generate_list(50000)
+    listTest50000M = listTest50000T.copy()
+    print("Input size of 50000 \n")
+    list1 = calculateTime(mergeSort, listTest50000M)
+    calculateTime(timSort, listTest50000T)
+    print('\n')
+
+    listTest100000T = generate_list(100000)
+    listTest100000M = listTest100000T.copy()
+    print("Input size of 100000 \n")
+    list1 = calculateTime(mergeSort, listTest100000M)
+    calculateTime(timSort, listTest100000T)
+    print('\n')
+
+    listTest500000T = generate_list(500000)
+    listTest500000M = listTest500000T.copy()
+    print("Input size of 500000 \n")
+    list1 = calculateTime(mergeSort, listTest500000M)
+    calculateTime(timSort, listTest500000T)
+    print('\n')
