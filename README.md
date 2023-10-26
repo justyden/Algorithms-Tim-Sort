@@ -38,7 +38,7 @@ This algorithm is strong in the fact that it handles real world data rather well
 - Using poetry, which is a virtual environment handler in python, a pytest script is created to verify the accuracy of this algorithm.
 - In order to understand the complexity and speed of this algorithm it is compared with merge sort, which is one of the most standard sorting algorithms.
 - Testing includes generating inputs for both algorithms, and checking to make sure it actually sorted the list.
-- __Image of the testing__ <img src="Sorting_Algorithms_Testing.png">
+- __Image of the testing__ <img src="Images/Sorting_Algorithms_Testing.png">
 - The testing module can be found in test directory. Simply run the command "poetry run pytest" while in the correct directory to verify.
 
 ## Performance of the Algorithm
