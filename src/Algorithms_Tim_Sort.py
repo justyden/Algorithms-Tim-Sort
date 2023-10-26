@@ -10,6 +10,8 @@ import time
 MIN_MERGE = 32
 
 # Calculates the time it takes to run a given function.
+
+
 def calculateTime(function: object, *args, **kwargs) -> None:
     startTime = time.perf_counter()
     output = function(*args, **kwargs)
@@ -20,11 +22,13 @@ def calculateTime(function: object, *args, **kwargs) -> None:
 # The runs in the tim sort are the sub arrays.
 # This trys to ensure that the len of sub arrays
 # are all around the same size. This allows for better runtime.
+
+
 def calcMinRun(n):
     r = 0
     # This makes sure that the size of each run is optimal.
     while n >= MIN_MERGE:
-        r |= n & 1 # The bitwise or operator.
+        r |= n & 1  # The bitwise or operator.
         n >>= 1
     return n + r
 
@@ -81,7 +85,7 @@ def merge_tim_sort(arr, l, m, r):
 
 # The main Tim Sort algorithm. Takes an array and sorts that same array.
 # There are more optimal ways to check if each sub array is reversed
-# and to simply reverse them. This would further help the time complexity of this 
+# and to simply reverse them. This would further help the time complexity of this
 # algorithm.
 def timSort(arr):
     array_length = len(arr)
@@ -119,6 +123,8 @@ def timSort(arr):
 
 # This takes a list as input and sorts it. Uses
 # a helper function to allow it to work correctly.
+
+
 def mergeSort(inputList):
     # This means the list is sorted since it has only 1 element.
     if len(inputList) < 2:
@@ -158,9 +164,12 @@ def mergeSortHelper(inputList1, inputList2):
     return tempList
 
 # Generate a list of with the specified number of random integers.
+
+
 def generate_list(amount):
     temp_list = [random.randint(0, 1000000) for x in range(amount)]
     return temp_list
+
 
 if __name__ == "__main__":
     list1 = generate_list(5)
