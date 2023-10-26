@@ -15,5 +15,3 @@ def test_tim_sort():
     timSort(temp_list)
     temp_list_copy.sort()
     assert temp_list == temp_list_copy
-
-print("yes")
