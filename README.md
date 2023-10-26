@@ -13,7 +13,7 @@ The Tim sort algorithm combines insertion sort as well as merge sort and for thi
 ## Project Goals
 
 ### Understand Tim Sort
-This algorithm is strong in the fact that it handles real world data rather well. Understanding this allows the programmer to see the reasoning of picking such an algorithm, all while being enticed to explore the parts that make the algorithm unique. It is a hybrid sorting algorithm, as was already mentioned, and it also as stable algorithm. Using both insertion sort and merge sort, the goal of the algorithm is to try and limit the number swaps and comparisons that are needed. It takes an array and breaks it down into sub arrays, which can also be called runs. The sub arrays are then pieced back together with the upgraded merge sort algorithm.
+This algorithm is strong in the fact that it handles real world data rather well. Understanding this allows the programmer to see the reasoning of picking such an algorithm, all while being enticed to explore the parts that make the algorithm unique. It is a hybrid sorting algorithm, as was already mentioned, and it also as stable algorithm. Using both insertion sort and merge sort, the goal of the algorithm is to try and limit the number swaps and comparisons that are needed. It takes an array and breaks it down into sub arrays, which can also be called runs. In order to for these sub arrays to run as efficiently as possible, there size should be around 32 to 64 for the optimal results. The sub arrays are then pieced back together with the upgraded merge sort algorithm. There are various different methods that can be used to piece the arrays back together, and these methods can get quite complex. To keep it simple the arrys are simply merged back together using the classic approach for this algorithm. Advanced methods include checking the last index in one array is less then the intial index in the other array. This would indicate that each array can be merged together without the need of inserting each index one at a time.
 
 #### Time Complexities
 - Best Case Time Complexity is Ω(n)
@@ -32,3 +32,26 @@ This algorithm is strong in the fact that it handles real world data rather well
 ### Gain Problem Solving & Critical Thinking Skills
 - Coding is never easy, especially when doing something for the first time. This means there is bound to be bugs somewhere within an application. Thinking logically, and planning the creation of this algorithm out, gives great insight on how it is done in the real world.
 - Taking the time to analyize an algorithm and understand which scenarios it would perform best in, is a strong skill to have. While in the testing phase, knowledge will be gained on which applications can utalize this algorithm to the best potential.
+
+## Testing the Alogrithm
+### Pytest
+- Using poetry, which is a virtual environment handler in python, a pytest script is created to verify the accuracy of this algorithm.
+- In order to understand the complexity and speed of this algorithm it is compared with merge sort, which is one of the most standard sorting algorithms.
+- Testing includes generating inputs for both algorithms, and checking to make sure it actually sorted the list.
+- __Image of the testing__ <img src="Sorting_Algorithms_Testing.png">
+- The testing module can be found in test directory. Simply run the command "poetry run pytest" while in the correct directory to verify.
+
+## Performance of the Algorithm
+### Testing Tim Sort
+#### Input Size of 1000
+#### Input Size of 10000
+#### Input Size of 50000
+#### Input Size of 100000
+#### Input Size of 500000
+### Testing Merge Sort
+#### Input Size of 1000
+#### Input Size of 10000
+#### Input Size of 50000
+#### Input Size of 100000
+#### Input Size of 500000
+### Comparing the Algorithms
