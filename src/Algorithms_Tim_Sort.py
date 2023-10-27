@@ -170,7 +170,6 @@ def generate_list(amount):
     temp_list = [random.randint(0, 1000000) for x in range(amount)]
     return temp_list
 
-
 if __name__ == "__main__":
     listTest1000T = generate_list(1000)
     listTest1000M = listTest1000T.copy()
