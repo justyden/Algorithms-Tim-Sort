@@ -10,8 +10,6 @@ import time
 MIN_MERGE = 32
 
 # Calculates the time it takes to run a given function.
-
-
 def calculateTime(function: object, *args, **kwargs) -> None:
     startTime = time.perf_counter()
     output = function(*args, **kwargs)
@@ -22,8 +20,6 @@ def calculateTime(function: object, *args, **kwargs) -> None:
 # The runs in the tim sort are the sub arrays.
 # This trys to ensure that the len of sub arrays
 # are all around the same size. This allows for better runtime.
-
-
 def calcMinRun(n):
     r = 0
     # This makes sure that the size of each run is optimal.
@@ -164,8 +160,6 @@ def mergeSortHelper(inputList1, inputList2):
     return tempList
 
 # Generate a list of with the specified number of random integers.
-
-
 def generate_list(amount):
     temp_list = [random.randint(0, 1000000) for x in range(amount)]
     return temp_list
